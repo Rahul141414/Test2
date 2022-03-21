@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="Listener_Study.Listener"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Listener_Study.teste1">
+      <class name="Testng_POM_UTIlity_Emptyfield_errors.Testclasswithemptyfield">
         <methods>
-          <include name="TC3"/>
-          <include name="TC5"/>
+          <include name="validationerror"/>
+          <include name="loginepage"/>
+          <include name="launching"/>
         </methods>
-      </class> <!-- Listener_Study.teste1 -->
-      <class name="Listener_Study.test2">
-        <methods>
-          <include name="TC8"/>
-          <include name="TC10"/>
-        </methods>
-      </class> <!-- Listener_Study.test2 -->
+      </class> <!-- Testng_POM_UTIlity_Emptyfield_errors.Testclasswithemptyfield -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
